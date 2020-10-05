@@ -1,4 +1,14 @@
 ﻿using System;
+<<<<<<< Updated upstream
+=======
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+using SockNet.ServerSocket;
+using static TPShyFuMyServer.Program.Arbitre;
+>>>>>>> Stashed changes
 
 
 using System.Collections.Generic;
@@ -44,5 +54,12 @@ namespace TPShyFuMyServer
        
 
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
 }
+=======
+>>>>>>> 26c86971c400a51e26a7b394853f684dd816dc2d
+}
+>>>>>>> Stashed changes
