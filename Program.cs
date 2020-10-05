@@ -1,10 +1,13 @@
 ﻿using System;
+
+
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using SockNet.ServerSocket;
+
 
 namespace TPShyFuMyServer
 {
@@ -34,5 +37,12 @@ namespace TPShyFuMyServer
                               ": " + Encoding.UTF8.GetString(data.Value));
             server.ResponseToClient(data.Key, "received");
         }
+
+
+        
+
+       
+
     }
-}g
+
+}
